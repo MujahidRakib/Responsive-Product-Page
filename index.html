@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  
+  <title>Frontend Mentor | E-commerce product page</title>
+  
+  <link rel="stylesheet" href="style.css" type="text/css" media="all" />
+  
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@100..900&display=swap" rel="stylesheet">
+
+</head>
+<body>
+
+  <nav class="nav">
+    <div class="nav-group">
+      <div class="logo-sec">
+        <img src="/images/icon-menu.svg" alt="" class="menu-icon" id="menu-icon">
+        <img src="/images/logo.svg" alt="">
+      </div>
+      <ul class="nav-list">
+        <li class="list-items"><a href="" class="page-link">Collections</a></li>
+        <li class="list-items"><a href="" class="page-link">Men</a></li>
+        <li class="list-items"><a href="" class="page-link">Women</a></li>
+        <li class="list-items"><a href="" class="page-link">About</a></li>
+        <li class="list-items"><a href="" class="page-link">Contact</a></li>
+      </ul>
+    </div>
+    <div class="cart-sec">
+      <ion-icon name="cart-outline" class="top-cart" id="top-cart"></ion-icon>
+        <div class="basket" id="basket">
+          <h3 class="basket-title">Cart</h3>
+          <div class="basket-items">
+            <img src="/images/small-1.jpg" alt="" class="basket-img">
+            <div class="basket-product-detail">
+              <p class="basket-product-title">Fall Limited Edition Sneakers </p>
+              <p class="basket-prices"> <span class="basket-single-price">$125.00 X 3</span> <span class="basket-total-price">$375.00</span></p>
+            </div>
+            <ion-icon name="trash" class="delete-icon"></ion-icon>
+          </div>
+          <div class="basket-checkout">
+          
+          Checkout
+        </div>
+      </div>
+      <img src="/images/image-avatar.png" alt="" class="avatar">
+    </div>
+  
+    <div id="side-bar-shadow"></div>
+    <div id="side-bar">
+      <ion-icon name="close" class="close-icon" id="close-icon"></ion-icon>
+      <ul class="side-list">
+        <li class="side-items"><a href="" class="side-links">Collections</a></li>
+        <li class="side-items"><a href="" class="side-links">Men</a></li>
+        <li class="side-items"><a href="" class="side-links">Women</a></li>
+        <li class="side-items"><a href="" class="side-links">About</a></li>
+        <li class="side-items"><a href="" class="side-links">Contact</a></li>
+      </ul>
+    </div>
+    
+  
+  </nav>
+
+  <main class="main">
+    <div class="slider-shadow">
+      <div class="total-container">
+        <div class="slider-container">
+          <ion-icon id="left-btn" class="arrow left" name="chevron-back-outline"></ion-icon>
+          <ion-icon id="right-btn" class="arrow right" name="chevron-forward-outline"></ion-icon>
+          <div class="img-slider" id="img-slider">
+            <img src="/images/img-1.jpg" alt="" class="slide" />
+            <img src="/images/img-2.jpg" alt="" class="slide" />
+            <img src="/images/img-3.jpg" alt="" class="slide" />
+            <img src="/images/img-4.jpg" alt="" class="slide" />
+          </div>
+        </div>
+        <div class="desktop-small-img">
+          <div class="desktop-small-img-1-div">
+            <img src="/images/small-1.jpg" alt="" class="desktop-small-img-1 active dsimg ho-op">
+          </div>
+          <div class="desktop-small-img-2-div">
+            <img src="/images/small-2.jpg" alt="" class="desktop-small-img-2 dsimg ho-op">
+          </div>
+          <div class="desktop-small-img-3-div">
+            <img src="/images/small-3.jpg" alt="" class="desktop-small-img-3 dsimg ho-op">
+          </div>
+          <div class="desktop-small-img-4-div">
+            <img src="/images/small-4.jpg" alt="" class="desktop-small-img-4 dsimg ho-op">
+          </div>
+        </div>
+        <div class="desktop-slider-btn">
+          <ion-icon id="desktop-left-btn" class="arrow desktop-left ho-col" name="chevron-back-outline"></ion-icon>
+          <ion-icon id="desktop-right-btn" class="arrow desktop-right ho-col" name="chevron-forward-outline"></ion-icon>
+          <ion-icon name="close" class="desktop-close-btn ho-col"></ion-icon>
+        </div>
+      </div>
+    </div>
+    <div class="left-sec">
+      <div class="big-img-container">
+        <img src="/images/img-1.jpg" alt="" class="big-img">
+      </div>
+      <div class="small-img">
+        <div class="small-img-1-div">
+          <img src="/images/small-1.jpg" alt="" class="small-img-1 img-small active ho-op">
+        </div>
+        <div class="small-img-2-div">
+          <img src="/images/small-2.jpg" alt="" class="small-img-2 img-small ho-op">
+        </div>
+        <div class="small-img-3-div">
+          <img src="/images/small-3.jpg" alt="" class="small-img-3 img-small ho-op">
+        </div>
+        <div class="small-img-4-div">
+          <img src="/images/small-4.jpg" alt="" class="small-img-4 img-small ho-op">
+        </div>
+      </div>
+    </div>
+    
+    <div class="right-sec container">
+      <h3 class="company-name">SNEAKER COMPANY</h3>
+
+      <h1 class="product-heading">Fall Limited Edition Sneakers</h1>
+    
+      <p class="product-details">These low-profile sneakers are your perfect casual wear companion. Featuring a 
+      durable rubber outer sole, they’ll withstand everything the weather can offer.
+      
+      </p>
+    
+      <div class="price">
+        <div class="left-price">
+          <h3 class="curr-price">$125.00</h3>
+          <h5 class="discount">50%</h5>
+        </div>
+        <h5 class="prev-price">$250.00</h5>
+      </div>
+    
+      <div class="cart-container">
+        <div class="order-container">
+        <p class="minus ho-op" id="minus">-</p>
+        <p class="product-count" id="product-count">1</p>
+        <p class="plus ho-op" id="plus">+</p>
+        </div>
+        <div class="add-to-cart ho-op">
+          <ion-icon name="cart-outline" class="btn-cart"></ion-icon>
+          Add to cart
+        </div>
+      </div>
+    </div>
+  </main>
+  
+
+
+
+
+
+  <script src="script.js" charset="utf-8"></script>
+  <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+</body>
+</html>
